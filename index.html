@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wendy Yu — Product</title>
+  <meta name="description" content="Wendy Yu is a product person who builds based on others' needs.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Wendy Yu — Product">
+  <meta property="og:description" content="Wendy Yu is a product person who builds based on others' needs.">
+  <!-- Link preview image. Once the site has its domain, make this a full URL, e.g. https://yourdomain.com/images/social-preview.jpg -->
+  <meta property="og:image" content="images/social-preview.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Caveat:wght@500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main">
+      <a class="nav__name" href="index.html">Wendy Yu</a>
+      <div class="nav__links">
+        <a href="#work" aria-current="page">work</a>
+        <a href="about.html">about</a>
+        <a href="https://drive.google.com/file/d/1JHWjpFaMQ9myxZFxFlhShqce47A7g4rU/view?usp=sharing" target="_blank" rel="noopener">resume</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- LANDING: stays put while the work sheet slides up over it -->
+    <section class="landing" id="top">
+      <div class="landing__inner">
+        <h1 class="landing__lead">Wendy Yu is a product person who</h1>
+
+        <!-- Screen readers get the full list; the animated reel is decorative -->
+        <p class="sr-only">builds based on others' needs, explores creative solutions, wants to make everyday experiences exciting, loves matcha, and researches users' motivations.</p>
+
+        <div class="reel-wrap" aria-hidden="true">
+          <!-- Doodles. Swap these for your own hand-drawn PNGs later if you like -->
+          <svg class="doodle d1 twinkle" viewBox="0 0 24 24"><path d="M12 2 13.6 10.4 22 12 13.6 13.6 12 22 10.4 13.6 2 12 10.4 10.4Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+          <svg class="doodle d2 twinkle t2" viewBox="0 0 24 24"><path d="M12 2 13.6 10.4 22 12 13.6 13.6 12 22 10.4 13.6 2 12 10.4 10.4Z" fill="currentColor"/></svg>
+          <svg class="doodle d3 twinkle t3" viewBox="0 0 24 24"><path d="M12 20C5 15 3 11.5 3 8.5 3 6 5 4 7.5 4c2 0 3.5 1.3 4.5 3 1-1.7 2.5-3 4.5-3C19 4 21 6 21 8.5c0 3-2 6.5-9 11.5Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+          <svg class="doodle d4 twinkle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="2.4"/></svg>
+          <svg class="doodle d5 twinkle t2" viewBox="0 0 24 24"><path d="M12 2 13.6 10.4 22 12 13.6 13.6 12 22 10.4 13.6 2 12 10.4 10.4Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          <svg class="doodle d6 twinkle t3" viewBox="0 0 24 24"><path d="M12 20C5 15 3 11.5 3 8.5 3 6 5 4 7.5 4c2 0 3.5 1.3 4.5 3 1-1.7 2.5-3 4.5-3C19 4 21 6 21 8.5c0 3-2 6.5-9 11.5Z" fill="currentColor"/></svg>
+
+          <div class="reel-window">
+            <!--
+              The rotating phrases, in your handwriting. Reorder the <li>s to
+              change the order. width/height are the display size in pixels.
+            -->
+            <ul class="reel" id="reel">
+              <li><img src="images/handwriting/phrase-1.png" alt="" width="509" height="52"></li>
+              <li><img src="images/handwriting/phrase-2.png" alt="" width="437" height="66"></li>
+              <li><img src="images/handwriting/phrase-3.png" alt="" width="691" height="73"></li>
+              <li><img src="images/handwriting/phrase-4.png" alt="" width="244" height="56"></li>
+              <li><img src="images/handwriting/phrase-5.png" alt="" width="488" height="56"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK SHEET -->
+    <section class="sheet" id="work" aria-labelledby="work-title">
+      <div class="sheet__handle" aria-hidden="true"></div>
+      <h2 class="sr-only" id="work-title">Work</h2>
+
+      <div class="cards">
+        <article class="card card--a">
+          <a class="card__main" href="https://medium.com/@wendy0103yu/multiple-fyps-a-better-instagram-scrolling-experience-ff1691d93c72" target="_blank" rel="noopener">
+            <div class="card__cover"><img src="images/covers/instagram.jpg" alt="" width="2000" height="1250" loading="lazy"></div>
+            <h3 class="card__title">Instagram case study</h3>
+          </a>
+          <p class="card__line">This case study on Instagram explores how to improve content discovery and user engagement. I conducted user research, developed personas, and identified pain points to propose new features, which are demonstrated through a Figma prototype.</p>
+          <div class="card__links">
+            <a href="https://www.figma.com/deck/fmfhTqV9xPLecTvuJjAIje/Case-Study-Instagram-Pages?node-id=0-1&amp;t=rVo094TEHIlZTUp9-1" target="_blank" rel="noopener">Presentation</a>
+            <a href="https://medium.com/@wendy0103yu/multiple-fyps-a-better-instagram-scrolling-experience-ff1691d93c72" target="_blank" rel="noopener">Read on Medium</a>
+          </div>
+        </article>
+
+        <article class="card card--b">
+          <a class="card__main" href="https://apps.apple.com/us/app/uplift-cornell-fitness/id1439374374" target="_blank" rel="noopener">
+            <div class="card__cover"><img src="images/covers/uplift.jpg" alt="" width="2000" height="1250" loading="lazy"></div>
+            <h3 class="card__title">Uplift</h3>
+          </a>
+          <!-- Stats: add more <span class="card__stat"> pills as needed -->
+          <div class="card__stats">
+            <span class="card__stat"><strong>1,500</strong> users</span>
+          </div>
+          <p class="card__line">Uplift is Cornell AppDev’s fitness app that helps students track workouts and stay active. As a Product Manager, I collaborate with designers and developers to ship features like profiles, workout logging, check-in notifications, and reminders.</p>
+          <div class="card__links">
+            <a href="https://apps.apple.com/us/app/uplift-cornell-fitness/id1439374374" target="_blank" rel="noopener">App Store</a>
+          </div>
+        </article>
+
+        <article class="card card--b">
+          <a class="card__main" href="https://github.com/cvepo/memorizer" target="_blank" rel="noopener">
+            <div class="card__cover"><img src="images/covers/memorizer.jpg" alt="" width="2000" height="1250" loading="lazy"></div>
+            <h3 class="card__title">Memorizer</h3>
+          </a>
+          <!-- Stats: add more <span class="card__stat"> pills as needed -->
+          <div class="card__stats">
+            <span class="card__stat"><strong>15</strong> users</span>
+          </div>
+          <p class="card__line">Memorizer is a study app to make learning information more engaging and interactive. I designed and developed features like flashcards, quizzes, timed challenges, leaderboards, and achievement badges to help students study more effectively.</p>
+          <div class="card__links">
+            <a href="https://github.com/cvepo/memorizer" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card card--a">
+          <a class="card__main" href="https://apps.apple.com/us/app/coursegrab/id1510823691" target="_blank" rel="noopener">
+            <div class="card__cover"><img src="images/covers/coursegrab.jpg" alt="" width="2000" height="1250" loading="lazy"></div>
+            <h3 class="card__title">CourseGrab</h3>
+          </a>
+          <div class="card__stats">
+            <span class="card__stat"><strong>2,000</strong> active at enrollment</span>
+          </div>
+          <p class="card__line">CourseGrab is a course enrollment tool that helps Cornell students track class availability. I explored new feature opportunities and helped with a redesign, including upcoming features like user profiles and schedule viewing to improve the course planning experience.</p>
+          <div class="card__links">
+            <a href="https://apps.apple.com/us/app/coursegrab/id1510823691" target="_blank" rel="noopener">App Store</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__contacts">
+        <p class="footer__label">contacts</p>
+        <a href="https://www.linkedin.com/in/wendy-yu-cu" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:wy357@cornell.edu">email</a>
+      </div>
+      <p class="footer__note">Every long-form word on this site is my own thinking and writing.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
